@@ -36,9 +36,13 @@ export const mockEvents: Event[] = [
     location: "Kano, Kano State",
     fee: 0,
     slug: "northern-nigeria-recitation-2026",
-    eligibility: null,
-    participationSteps: null,
-    registrationDeadline: null,
+    eligibility: "Illustrative mock eligibility: participants may enter one recitation category.",
+    participationSteps: [
+      "Mock step 1: Review the published eligibility details.",
+      "Mock step 2: Contact the organizer using verified event details.",
+      "Mock step 3: Follow the organizer's official participation instructions.",
+    ],
+    registrationDeadline: "2026-10-31",
     organizerContact: {
       name: "Mock organizer contact",
       phone: "+234 000 000 0000",
@@ -56,9 +60,9 @@ export const mockEvents: Event[] = [
     location: "Kaduna, Kaduna State",
     fee: 2500,
     slug: "young-huffaz-gathering-2026",
-    eligibility: null,
+    eligibility: "Illustrative mock eligibility: participants may enter the Hifz category.",
     participationSteps: null,
-    registrationDeadline: null,
+    registrationDeadline: "2026-11-20",
     organizerContact: null,
   },
   {
@@ -73,7 +77,7 @@ export const mockEvents: Event[] = [
     slug: "lagos-tilawah-festival-2027",
     eligibility: null,
     participationSteps: null,
-    registrationDeadline: null,
+    registrationDeadline: "2026-08-01",
     organizerContact: null,
   },
 ];
